@@ -29,13 +29,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://fahad-sajid.vercel.app',
+    url: 'https://portfolio-fahad4920s-projects.vercel.app/',
     title: 'Fahad Sajid | Software Engineer Portfolio',
     description: 'Specializing in React.js, Next.js, Node.js, and modern full-stack web development. View my technical projects and credentials.',
     siteName: 'Fahad Sajid Portfolio',
     images: [
       {
-        url: 'https://fahad-sajid.vercel.app/og-image.jpg',
+        url: 'https://portfolio-fahad4920s-projects.vercel.app//og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Fahad Sajid Portfolio',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fahad Sajid | Software Engineer',
     description: 'React.js, Next.js, Node.js, Full Stack Development portfolio.',
-    images: ['https://fahad-sajid.vercel.app/og-image.jpg'],
+    images: ['https://portfolio-fahad4920s-projects.vercel.app//og-image.jpg'],
   },
   robots: {
     index: true,
@@ -71,7 +71,7 @@ export default function RootLayout({
               '@type': 'Person',
               'name': 'Fahad Sajid',
               'jobTitle': 'Software Engineer',
-              'url': 'https://fahad-sajid.vercel.app',
+              'url': 'https://portfolio-fahad4920s-projects.vercel.app/',
               'sameAs': [
                 'https://github.com/fahad4920',
                 'https://www.linkedin.com/in/fahadsajid492/'
