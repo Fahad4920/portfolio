@@ -18,15 +18,27 @@ export const experiences: Experience[] = [
     ]
   },
   {
-    role: "Web Developer Intern",
-    company: "Cosmotech Technologies",
-    period: "January 2024 - April 2024",
-    points: [
-      "Developed and maintained highly responsive client-facing websites using HTML5, CSS3, and JavaScript frameworks.",
-      "Worked closely with Odoo ERP modules, customizing client portals and database schemas using Python.",
-      "Integrated third-party and custom REST APIs to connect legacy database systems with external SaaS services.",
-      "Collaborated in a remote agile team using Git, conducting code reviews and ensuring seamless version control integration.",
-      "Designed and deployed customized WordPress sites, creating custom themes and custom plugins as required by business requirements."
-    ]
-  }
+  role: "Web Developer Intern",
+  company: "Cosmotech Technologies",
+  period: "June 2025 - August 2025",
+  points: [
+    "Developed responsive websites and landing pages using HTML5, CSS3, JavaScript, and WordPress.",
+    "Assisted in customizing Odoo ERP modules and implementing client-specific business requirements.",
+    "Integrated REST APIs to enable seamless communication between frontend applications and backend services.",
+    "Collaborated with developers using Git in an Agile development environment, participating in code reviews and bug fixing.",
+    "Improved website responsiveness, usability, and cross-browser compatibility for client projects."
+  ]
+},
+{
+  role: "Software Developer",
+  company: "TechnikNest",
+  period: "September 2024 - Present", 
+  points: [
+    "Developed full-stack web applications using React.js, Node.js, Express.js, and MongoDB.",
+    "Designed and implemented RESTful APIs, authentication workflows, and database operations to support scalable application features.",
+    "Created reusable frontend components and responsive user interfaces while ensuring seamless integration with backend services.",
+    "Deployed and maintained applications on Vercel, resolved production issues, and improved application performance through debugging and optimization.",
+    "Collaborated with developers using Git and Agile practices, contributing to code reviews, feature planning, and continuous product improvements."
+  ]
+}
 ];
