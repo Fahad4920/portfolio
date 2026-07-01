@@ -57,10 +57,10 @@ export default function AboutSection() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-base text-muted-foreground leading-relaxed"
             >
-              I am a Software Engineering graduate specializing in React.js, Next.js, and modern full-stack engineering. My primary focus is building robust, production-grade applications that solve real-world problems. By utilizing typed languages like TypeScript and structuring modules logically, I make sure the code remains clean, maintainable, and simple to scale.
+              Software Engineer with hands-on experience developing scalable web applications using React.js, Next.js, Node.js, and REST APIs. Experienced in building responsive user interfaces, integrating backend services, and deploying production-ready applications on Vercel. Passionate about solving real-world problems through clean code, modern web technologies, and AI-assisted development. Open to relocating to Saudi Arabia for full-time opportunities.
             </motion.p>
 
-            <motion.p
+            {/* <motion.p
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -68,7 +68,7 @@ export default function AboutSection() {
               className="text-base text-muted-foreground leading-relaxed mt-4"
             >
               As a fast learner and a dedicated team player, I excel at adapting to new stacks, managing relational and non-relational database nodes (MySQL, MongoDB), containerizing solutions with Docker, and deploying with modern pipelines.
-            </motion.p>
+            </motion.p> */}
 
             {/* AI assisted development workflow quote */}
             <motion.div

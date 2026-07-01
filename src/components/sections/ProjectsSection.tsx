@@ -9,6 +9,7 @@ import GlassCard from '../common/GlassCard';
 import SectionHeading from '../common/SectionHeading';
 import GradientButton from '../common/GradientButton';
 import { projects } from '@/data/projects';
+import Image from "next/image";
 
 const categories = [
   { id: 'all', label: 'All Projects' },
@@ -97,21 +98,25 @@ export default function ProjectsSection() {
                   className="flex flex-col h-full overflow-hidden"
                 >
                   {/* Project Visual Container */}
-                  <div className="relative h-56 w-full bg-gradient-to-br from-violet-950/40 to-blue-950/40 border-b border-border/20 overflow-hidden group">
-                    {/* Placeholder structural pattern background */}
-                    <div className="absolute inset-0 bg-radial-gradient opacity-80" />
-                    
-                    {/* Simulated visual diagram inside the card header itself */}
-                    <div className="absolute inset-0 flex flex-col justify-center items-center font-sans">
-                      <div className="w-12 h-12 rounded-2xl bg-card border border-border/50 flex items-center justify-center text-primary shadow-lg mb-3">
-                        <FolderGit className="w-6 h-6 text-primary" />
-                      </div>
-                      <span className="text-sm font-extrabold tracking-wider uppercase text-foreground">{project.title}</span>
-                      <span className="text-[10px] text-muted-foreground mt-1 uppercase font-semibold tracking-widest">{project.category}</span>
-                    </div>
+                  <div className="relative h-56 w-full overflow-hidden border-b border-border/20">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
 
-                    {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-80" />
+                    <div className="absolute inset-0 bg-black/30" />
+
+                    <div className="absolute bottom-4 left-4">
+                      <h3 className="text-white text-xl font-bold">
+                        {project.title}
+                      </h3>
+
+                      <p className="text-white/80 text-sm uppercase">
+                        {project.category}
+                      </p>
+                    </div>
                   </div>
 
                   {/* Body details */}
